@@ -1,0 +1,90 @@
+body{
+    margin: 30px;
+    margin-bottom: 0px;
+}
+.wholepage{
+    background-color:  hsl(207, 33%, 95%);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+ul{
+    display: flex;
+    margin-right: 100px;
+}
+li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 20px;
+    transition: 0.5s; 
+}
+li:hover{
+    background-color:rgba(55,40,101,255);
+    transform: scale(1.1);
+}
+a:hover{
+    color: white;
+}
+.headerlink{
+    text-decoration: none;
+    color:  hsl(231, 7%, 65%);
+}
+main{
+    display: flex;
+    justify-content: center;
+   margin-right: 50px;
+    margin-top: 50px;
+}
+.main1{
+    width: 600px;
+    margin-right:300px;
+}
+.main1 h4{
+    background-color:rgba(55,40,101,255);
+    color: white;
+    height: 30px;
+    width:400px;
+    padding-top: 10px;
+    border-radius: 30px;
+    padding-left: 40px;
+}
+.main1 h1{
+    font-size: 50px;
+    color:rgba(55,40,101,255); 
+}
+.main1 p{
+color: hsl(231, 7%, 65%);
+}
+.learnlink {
+    color: white;
+}
+#mail{
+    height: 40px;
+    width:250px ;
+    border: none;
+    border-radius: 10px;
+}
+.input{
+    display: flex;
+}
+.input h6{
+    color: white;
+     background-color:rgba(55,40,101,255);
+      height: 25px;
+     width: 110px;
+      padding-top: 15px;
+      margin: 10px;
+      margin-top: 0px;
+      padding-left: 20px;
+      border-radius: 5px;
+ }
+ footer{
+    margin: 100px;
+    margin-top: 150px;
+    color:  hsl(231, 7%, 65%);;
+ }
