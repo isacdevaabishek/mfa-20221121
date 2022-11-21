@@ -1,9 +1,11 @@
 body{
-    margin: 30px;
+    margin: 50px;
     margin-bottom: 0px;
+   
 }
 .wholepage{
     background-color:  hsl(207, 33%, 95%);
+    border-radius: 10px;
 }
 header{
     display: flex;
@@ -11,7 +13,7 @@ header{
     margin-left: 100px;
     margin-bottom: 0px;
     padding-top: 50px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 ul{
     display: flex;
@@ -86,5 +88,6 @@ color: hsl(231, 7%, 65%);
  footer{
     margin: 100px;
     margin-top: 150px;
-    color:  hsl(231, 7%, 65%);;
+    color:  hsl(255deg 43% 28%);
+    padding-bottom: 60px;
  }
